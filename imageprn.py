@@ -44,3 +44,4 @@ for feed in range(6):
     ser.write(chr(0x0D))
 
 file.close()
+ser.close()
